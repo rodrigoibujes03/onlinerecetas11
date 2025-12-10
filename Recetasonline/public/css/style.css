@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+:root{
+  --bg1:#FF6B6B; --bg2:#F8B500; --accent:#4F46E5; --card:#fff;
+}
+*{box-sizing:border-box}
+body{
+  font-family:'Poppins',sans-serif;
+  min-height:100vh;
+  background:linear-gradient(135deg,var(--bg1),var(--bg2));
+  color:#111;
+}
+.navbar{background:rgba(0,0,0,0.12)!important;backdrop-filter:blur(6px)}
+.recipe-card{border-radius:14px;overflow:hidden;transition:transform .25s,box-shadow .25s;background:var(--card);box-shadow:0 8px 24px rgba(0,0,0,.12)}
+.recipe-card:hover{transform:translateY(-8px);box-shadow:0 18px 36px rgba(0,0,0,.2)}
+.btn-main{background:linear-gradient(90deg,var(--accent),#FF4D4D);color:#fff;border-radius:999px;padding:10px 18px;border:none;font-weight:600}
+.card{border:none;border-radius:12px}
+.card-img-top{height:220px;object-fit:cover}
+footer{color:rgba(255,255,255,.9)}
+input,textarea,select{border-radius:8px}
+.alert{background:rgba(255,255,255,0.12);color:#fff;border:none}
